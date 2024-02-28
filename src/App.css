@@ -3,3 +3,10 @@
   background-color: #f9a551;
   border-radius: 10%;
 }
+.navbar-brand {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.about {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
