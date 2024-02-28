@@ -11,7 +11,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light shadow">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img
             src={imageSrcPath}
             width="30"
@@ -32,28 +32,28 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-md-1">
-            {navItems.map((items, index) => (
-              <li
-                key={items}
-                className="nav-item"
-                onClick={() => setSelectedIndex(index)}
+      </div>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav me-auto mb-2 mb-md-1">
+          {navItems.map((items, index) => (
+            <li
+              key={items}
+              className="nav-item"
+              onClick={() => setSelectedIndex(index)}
+            >
+              <a
+                className={
+                  selectedIndex == index
+                    ? "nav-link active fw-bold"
+                    : "nav-link"
+                }
+                href="#"
               >
-                <a
-                  className={
-                    selectedIndex == index
-                      ? "nav-link active fw-bold"
-                      : "nav-link"
-                  }
-                  href="#"
-                >
-                  {items}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
+                {items}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );

@@ -1,15 +1,30 @@
+/* Navbar */
 .navbar-nav .nav-item .nav-link:hover {
   color: black;
   background-color: #f9a551;
-  border-radius: 10%;
+  border-radius: 5%;
 }
+.navbar .nav-link {
+  text-align: center;
+  margin-right: 40px;
+  font-family: "Trebuchet MS";
+}
+
 .navbar-brand {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 80px;
 }
+.fw-bolder {
+  color: #f9a551;
+}
+/* Akhir Navbar */
+
 .about {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Trebuchet MS";
   text-align: center;
 }
 .Home {
-  text-align: center;
+  padding: 60px;
+  font-family: "Trebuchet MS";
+  font-weight: bolder;
+  padding-top: 40px;
 }
