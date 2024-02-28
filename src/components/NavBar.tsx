@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../App.css";
+
 interface NavBarProps {
   brandName: string;
   imageSrcPath: string;
@@ -15,26 +16,23 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
             src={imageSrcPath}
             width="30"
             height="40"
-            className="d-inline-block align-top"
+            className="d-inline-block align-center"
             alt=""
           />
-          {brandName}
+          <span className="fw-bolder fs-4">{brandName}</span>
         </a>
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" />
         </button>
-        <div
-          className="collapse navbar-collapse align-items-start d-flex flex-column flex-md-row"
-          id="navbarSupportedContent"
-        >
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-md-1">
             {navItems.map((items, index) => (
               <li
