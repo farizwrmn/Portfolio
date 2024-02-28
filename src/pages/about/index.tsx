@@ -6,7 +6,7 @@ interface AboutInterface {
 function About(props: AboutInterface) {
   return (
     <div className="about">
-      <h1>About {props.name}</h1>
+      <h1>About {props.name},</h1>
     </div>
   );
 }

@@ -8,7 +8,9 @@ function Home() {
         </h1>
         <h3>
           Currently learning Fullstack Web Development in{" "}
-          <span className="fw-bolder">Purwadhika</span>
+          <a href="https://purwadhika.com">
+            <span className="fw-bolder">Purwadhika</span>
+          </a>
         </h3>
       </div>
     </>
