@@ -1,4 +1,12 @@
+* {
+  scroll-behavior: smooth;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: 0.5;
+}
+
 /* Navbar */
+
 .navbar-nav .nav-item .nav-link:hover {
   color: black;
   background-color: #f9a551;
@@ -9,13 +17,20 @@
   margin-right: 40px;
   font-family: "Trebuchet MS";
 }
-
 .navbar-brand {
   margin-left: 80px;
 }
 .fw-bolder {
   color: #f9a551;
 }
+a:link {
+  text-decoration: none;
+}
+.fw-bolder:hover {
+  text-decoration: underline;
+  color: lightseagreen;
+}
+
 /* Akhir Navbar */
 
 .about {
@@ -27,4 +42,19 @@
   font-family: "Trebuchet MS";
   font-weight: bolder;
   padding-top: 40px;
+}
+svg {
+  color: #f9a551;
+  margin-left: 80px;
+}
+h4 {
+  text-align: right;
+  font-size: large;
+}
+span {
+  color: #f9a551;
+}
+.link-project {
+  border: outset #f9a551;
+  border-radius: 5%;
 }
