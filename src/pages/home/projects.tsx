@@ -5,7 +5,8 @@ function Projects() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-sm-6 text-justify">
+          <div className="col-9">.01</div>
+          <div className="col-lg-7 text-justify">
             <h3>To Do List App</h3>
             <br />
             This project is a work in progress as I learning the document
@@ -19,13 +20,13 @@ function Projects() {
             <em>This was made using Vite: React + Typescript</em>
             <br />
           </div>
-          <div className="col-lg-6 text-center">
+          <div className="col-lg-2 text-center">
             <br />
             <a href="http://frzwarman-todolistapp.vercel.app">
               <img
                 src={Projects1}
                 alt="Project 1"
-                width="500"
+                width="480"
                 className="link-project"
               />
             </a>
