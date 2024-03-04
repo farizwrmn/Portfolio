@@ -47,7 +47,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
                     ? "nav-link active fw-bold"
                     : "nav-link"
                 }
-                href="#"
+                href={"/about"}
               >
                 {items}
               </a>

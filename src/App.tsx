@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <div>
-        <NavBar brandName="." imageSrcPath={imagePath} navItems={items} />
+        <NavBar brandName="" imageSrcPath={imagePath} navItems={items} />
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About name="Fariz" />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </>
   );

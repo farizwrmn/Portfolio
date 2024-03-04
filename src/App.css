@@ -4,6 +4,9 @@
     "Lucida Sans", Arial, sans-serif;
   transition: 0.5;
 }
+body {
+  background-image: url(./assets/img/background.png);
+}
 
 /* Navbar */
 
@@ -57,4 +60,14 @@ span {
 .link-project {
   border: outset #f9a551;
   border-radius: 5%;
+}
+.profile {
+  border-radius: 10%;
+  filter: brightness(1.2);
+}
+.lead {
+  padding: 50px;
+  margin-top: 30px;
+  border-radius: 50%;
+  font-style: italic;
 }
