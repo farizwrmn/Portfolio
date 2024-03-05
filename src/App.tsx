@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import imagePath from "./assets/img/MFW.png";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./App.css";
 
 function App() {
   let items = ["About"];

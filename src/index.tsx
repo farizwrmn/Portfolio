@@ -1,4 +1,5 @@
 import Projects from "./pages/home/projects";
+import "./App.css";
 
 function Home() {
   return (
