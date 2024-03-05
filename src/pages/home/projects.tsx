@@ -1,4 +1,4 @@
-import Projects1 from "../../assets/img/Todo-list.png";
+import Projects1 from "../../assets/img/animation.gif";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
           </div>
           <div className="col-lg-2 text-center">
             <br />
-            <a href="http://frzwarman-todolistapp.vercel.app">
+            <a href="#">
               <img
                 src={Projects1}
                 alt="Project 1"

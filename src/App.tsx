@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
-  let items = ["About", "Contacts", "Projects", "Educations"];
+  let items = ["About"];
   return (
     <>
       <div>

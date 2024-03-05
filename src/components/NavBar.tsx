@@ -17,7 +17,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
             width="30"
             height="40"
             className="d-inline-block align-center"
-            alt=""
+            alt="Home"
           />
           <span className="fw-bolder fs-4">{brandName}</span>
         </a>
@@ -47,7 +47,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
                     ? "nav-link active fw-bold"
                     : "nav-link"
                 }
-                href={"/about"}
+                href="/about"
               >
                 {items}
               </a>
