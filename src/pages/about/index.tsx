@@ -1,4 +1,4 @@
-import "/Users/nsmfw/Desktop/typescript/Portfolio/src/App.css";
+import "../../App.css";
 import Profile from "../../assets/img/profile1.jpg";
 
 function About() {
