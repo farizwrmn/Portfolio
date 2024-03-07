@@ -1,9 +1,12 @@
 import "../../App.css";
 import Profile from "../../assets/img/profile1.jpg";
+import NavBar from "../../components/NavBar";
+import imagePath from "../../assets/img/MFW.png";
 
 function About() {
   return (
     <>
+      <NavBar brandName="" imageSrcPath={imagePath} />
       <br />
       <br />
       <br />

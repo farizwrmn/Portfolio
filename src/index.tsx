@@ -1,9 +1,12 @@
 import Projects from "./pages/home/projects";
 import "./App.css";
+import NavBar from "../src/components/NavBar";
+import imagePath from "../src/assets/img/MFW.png";
 
 function Home() {
   return (
     <>
+      <NavBar brandName="" imageSrcPath={imagePath} />
       <div className="Home">
         <h1>
           Hello,
