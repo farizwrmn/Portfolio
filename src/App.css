@@ -33,6 +33,21 @@ a:link {
   text-decoration: underline;
   color: lightseagreen;
 }
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  color: black;
+}
+li {
+  margin-top: 15px;
+}
+
+li:hover {
+  background-color: #f9a551;
+  color: white;
+  border-radius: 5%;
+}
 
 /* Akhir Navbar */
 

@@ -8,12 +8,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
 
 function App() {
-  let items = ["About"];
   return (
     <>
-      <div>
-        <NavBar brandName="" imageSrcPath={imagePath} navItems={items} />
-      </div>
+      <NavBar brandName="" imageSrcPath={imagePath} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

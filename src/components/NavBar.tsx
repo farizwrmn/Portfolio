@@ -1,13 +1,10 @@
-import { useState } from "react";
 import "../App.css";
 
 interface NavBarProps {
   brandName: string;
   imageSrcPath: string;
-  navItems: string[];
 }
-function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
-  const [selectedIndex, setSelectedIndex] = useState(-1);
+function NavBar({ brandName, imageSrcPath }: NavBarProps) {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light shadow">
       <div className="container-fluid">
@@ -32,28 +29,15 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
         >
           <span className="navbar-toggler-icon" />
         </button>
-      </div>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-md-1">
-          {navItems.map((items, index) => (
-            <li
-              key={items}
-              className="nav-item"
-              onClick={() => setSelectedIndex(index)}
-            >
-              <a
-                className={
-                  selectedIndex == index
-                    ? "nav-link active fw-bold"
-                    : "nav-link"
-                }
-                href="/about"
-              >
-                {items}
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul>
+            <li>
+              <a href="/about" className="btn">
+                About
               </a>
             </li>
-          ))}
-        </ul>
+          </ul>
+        </div>
       </div>
     </nav>
   );
